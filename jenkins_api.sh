@@ -3,8 +3,10 @@
 ##### Usage of the script is demonstrated in below youtube video
 ##### YouTube URL:
 #####
+
 echo $apigatewayurl
 echo $SelecttheOperation
+
 case $SelecttheOperation in
 	create)
     echo 'Create Operation Executed'
